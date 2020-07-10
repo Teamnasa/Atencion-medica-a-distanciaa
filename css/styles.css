@@ -1,4 +1,4 @@
-*{margin:0; padding:0;}
+**{margin:0; padding:0;}
 
 header{
     background: url('../img/Imagen-de-banner.png');
@@ -31,7 +31,6 @@ background-color: #9cf;
 #carrusel{
     width: 50%;
     margin: 50px auto;
-   
 }
 #carufondo{
     background-color: #09f;
@@ -45,10 +44,6 @@ background-color: #9cf;
 img{
     width: 700px;
     height:700px;
-}
-
-#qs{
-
 }
 
 #amd{
@@ -82,6 +77,7 @@ img{
 }
 
 #texts{
+    margin-left: 245px;
     margin-top: 150px;
 }
 
@@ -95,6 +91,7 @@ img{
     border-radius: 7px;
 }
 #text{
+    margin-top: 35px;
     background-color: #f2f2f2;
     border-radius: 7px;
 }
@@ -104,15 +101,14 @@ img{
 }
 
 #s1{
-    border-style: solid;
-    background-color: #99f;
+    background-color: #6cf;
 }
 #s2{
     background-color: #8c8c8c;
 }
 
 #siguenos{
-    background-color: #99f;
+    background-color: #3cf;
 }
 p{
      font-family: 'PT Serif', serif;
@@ -126,6 +122,162 @@ p{
     font-size: 25px;
     color:#003;
 }
-#acercade{
-    
+#sub2{
+  background: rgba(102, 102, 255,.7);
+  width: 1349px;
+  height: 500px;
+}
+@media screen and (max-width: 799px){
+    header{
+        background-size: cover;
+        min-height: 0px;
+        display: none;
+    }
+    #menu{
+        width: 95%;
+        padding-top:11px;
+    }
+    #menu ul a{
+        color: #000;
+        padding: 15px 4px 18px 4px;
+        text-decoration: none;
+        margin: auto;
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+    }
+
+    #carrusel{
+        width: 100%;
+        margin: 50px auto;
+    }
+    #carufondo{
+        margin-top: 70px;
+        background-color: #09f;
+    }
+    #ci{
+        width: 100%;
+        height: 100%;    
+    }
+    #imagen{
+        background: url('../img/Logo-con-fondo.png');
+        background-size: cover;
+        margin: 20px auto;
+        width: 500px;
+        height:500px;
+    }
+    #imgs{
+        width:450px;
+        height:450px;
+        margin-top: 50px;
+    }
+    #sub{
+        background: url('../img/Imagen-de-banner2.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: -100px;
+    }
+    #sub2{
+      background: rgba(102, 102, 255,.7);
+      width: 517px;
+      height: 378px;
+    }
+    #texts{
+    margin-left: 0px;
+    margin-top: 50px;
+    }
+
+    #siguenos{
+    margin-top: -122px;
+    margin-bottom:  -5000000px;
+    min-height: 125px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1279px){
+    header{
+        margin-top: 75px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        min-height: 500px;
+        width: 100%;
+        margin-bottom: -180px;
+    }
+
+    #menu{
+        width: 95%;
+        padding-top:9px;
+    }
+    #menu ul a{
+        color: #000;
+        padding: 11px 28px 12px 28px;
+        text-decoration: none;
+        margin: auto;
+        font-family: 'PT Serif', serif;
+        font-size: 28px;
+    }
+    #carrusel{
+        width: 75%;
+        margin: 20px auto;
+    }
+    #carufondo{
+        margin-top: 70px;
+        background-color: #09f;
+    }
+    #ci{
+        width: 100%;
+        height: 100%;    
+    }
+    #imagen{
+        background-size: cover;
+        margin: 20px auto;
+        width: 100%;
+        height:450px;
+    }
+
+    #qs{
+        margin-top: 80px;
+    }
+     #imgs{
+        width:400px;
+        height:400px;
+        margin-top: 50px;
+    }
+    #amd{
+        border-bottom: solid;
+    }
+    #s1,#s2{
+        min-width: 50%;
+        border-bottom: solid;
+    }
+    #s1{
+       border-left: solid; 
+    }
+    #s2{
+        border-left: solid;
+        border-right: solid;
+    }
+    #sub{
+        margin-top: 0px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        min-height: 500px;
+        width: 100%;
+        margin-bottom: -100px;
+    }
+    #sub2{
+      background: rgba(102, 102, 255,.7);
+      width: 1262px;
+      height: 498px;
+    }
+    #texts{
+        margin-left: 230px;
+        margin-top: 85px;
+    }
+    #siguenos{
+        min-height: 120px;
+    }
+    #sigu{
+    }
+    footer{
+        margin-top: 59px;
+    }
 }
