@@ -127,7 +127,7 @@ p{
   width: 1349px;
   height: 500px;
 }
-@media screen and (max-width: 799px){
+@media screen and (max-width: 1079px){
     header{
         background-size: cover;
         min-height: 0px;
@@ -192,7 +192,7 @@ p{
     min-height: 125px;
     }
 }
-@media screen and (min-width: 800px) and (max-width: 1279px){
+@media screen and (min-width: 1080px) and (max-width: 1279px){
     header{
         margin-top: 75px;
         background-size: 100%;
