@@ -1,4 +1,4 @@
-**{margin:0; padding:0;}
+*{margin:0; padding:0;}
 
 header{
     background: url('../img/Imagen-de-banner.png');
@@ -127,7 +127,7 @@ p{
   width: 1349px;
   height: 500px;
 }
-@media screen and (max-width: 719px){
+@media screen and (max-width: 799px){
     header{
         background-size: cover;
         min-height: 0px;
@@ -192,7 +192,7 @@ p{
     min-height: 125px;
     }
 }
-@media screen and (min-width: 720px) and (max-width: 1080px){
+@media screen and (min-width: 800px) and (max-width: 1279px){
     header{
         margin-top: 75px;
         background-size: 100%;
@@ -261,16 +261,16 @@ p{
         background-repeat: no-repeat;
         min-height: 500px;
         width: 100%;
-        margin-bottom: -100px;
+        margin-bottom: -170px;
     }
     #sub2{
       background: rgba(102, 102, 255,.7);
-      width: 1262px;
-      height: 498px;
+      width: 1070px;
+      height: 478px;
     }
     #texts{
-        margin-left: 230px;
-        margin-top: 85px;
+        margin-left: 100px;
+        margin-top: 35px;
     }
     #siguenos{
         min-height: 120px;
