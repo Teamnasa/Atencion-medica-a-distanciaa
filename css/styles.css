@@ -127,7 +127,7 @@ p{
   width: 1349px;
   height: 500px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 719px){
     header{
         background-size: cover;
         min-height: 0px;
@@ -172,27 +172,26 @@ p{
     }
     #sub{
         background: url('../img/Imagen-de-banner2.png');
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: -100px;
+        margin-bottom: 120px;
     }
     #sub2{
       background: rgba(102, 102, 255,.7);
-      width: 517px;
-      height: 378px;
+      width: 702px;
+      height: 508px;
     }
     #texts{
-    margin-left: 0px;
+    margin-left: 30px;
     margin-top: 50px;
     }
 
     #siguenos{
     margin-top: -122px;
-    margin-bottom:  -5000000px;
     min-height: 125px;
     }
 }
-@media screen and (min-width: 801px) and (max-width: 1279px){
+@media screen and (min-width: 720px) and (max-width: 1080px){
     header{
         margin-top: 75px;
         background-size: 100%;
@@ -208,7 +207,7 @@ p{
     }
     #menu ul a{
         color: #000;
-        padding: 11px 28px 12px 28px;
+        padding: 11px 24px 12px 24px;
         text-decoration: none;
         margin: auto;
         font-family: 'PT Serif', serif;
@@ -237,8 +236,8 @@ p{
         margin-top: 80px;
     }
      #imgs{
-        width:400px;
-        height:400px;
+        width:340px;
+        height:340px;
         margin-top: 50px;
     }
     #amd{
@@ -257,22 +256,24 @@ p{
     }
     #sub{
         margin-top: 0px;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         min-height: 500px;
         width: 100%;
-        margin-bottom: -170px;
+        margin-bottom: -120px;
     }
     #sub2{
+      background-size: cover;
       background: rgba(102, 102, 255,.7);
-      width: 1070px;
-      height: 478px;
+      width: 102.9%;
+      height: 400px;
     }
     #texts{
-        margin-left: 100px;
-        margin-top: 35px;
+        background-size: cover;
+        margin: 50px 120px;
     }
     #siguenos{
+        margin-top:-100px;
         min-height: 120px;
     }
     #sigu{
