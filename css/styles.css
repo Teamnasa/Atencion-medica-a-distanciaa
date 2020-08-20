@@ -16,16 +16,16 @@ header{
     background-color: #fff;
     font-size: 22px;
 }
-#menu ul a,h3,h1{
+#menu a,h3,h1{
     color: #000;
     padding: 17px 20px 14px 20px;
     text-decoration: none;
     margin: auto;
     font-family: 'PT Serif', serif;
 }
-#menu ul a:hover{
+#menu a:hover{
     color: #fff;
-background-color: #9cf;
+    background-color: #9cf;
 }
 
 #carrusel{
@@ -36,7 +36,7 @@ background-color: #9cf;
     background-color: #09f;
 }
 
-#ci{
+.ci{
     width: 600px;
     height:600px;
 }
@@ -63,7 +63,7 @@ img{
     margin: 50px auto;
 }
 
-#imgs{
+.imgs{
     width:210px;
     height:210px;
     margin-top: 50px;
@@ -91,25 +91,26 @@ img{
     border-radius: 7px;
 }
 #text{
-    margin-top: 35px;
-    background-color: #f2f2f2;
-    border-radius: 7px;
+    margin: auto;
+    /*margin-top: 35px;
+    border-radius: 7px;*/
 }
 
 #esp{
     background-color: #f2f2f2;
 }
 
-#s1{
+#s0, #s2, #s4{
     background-color: #6cf;
 }
-#s2{
+#s1, #s3, #s5{
     background-color: #8c8c8c;
 }
 
 #siguenos{
     background-color: #3cf;
 }
+
 p{
      font-family: 'PT Serif', serif;
 }
@@ -124,7 +125,8 @@ p{
 }
 #sub2{
   background: rgba(102, 102, 255,.7);
-  width: 1349px;
+  min-width: 100%;
+  /*width: 1349px;*/
   height: 500px;
 }
 @media screen and (max-width: 719px){
@@ -137,7 +139,7 @@ p{
         width: 95%;
         padding-top:11px;
     }
-    #menu ul a{
+    #menu a{
         color: #000;
         padding: 15px 4px 18px 4px;
         text-decoration: none;
@@ -154,7 +156,7 @@ p{
         margin-top: 70px;
         background-color: #09f;
     }
-    #ci{
+    .ci{
         width: 100%;
         height: 100%;    
     }
@@ -165,7 +167,7 @@ p{
         width: 500px;
         height:500px;
     }
-    #imgs{
+    .imgs{
         width:450px;
         height:450px;
         margin-top: 50px;
@@ -178,12 +180,14 @@ p{
     }
     #sub2{
       background: rgba(102, 102, 255,.7);
-      width: 702px;
+      min-width: 100%;
+      /*width: 702px;*/
       height: 508px;
     }
     #texts{
-    margin-left: 30px;
-    margin-top: 50px;
+        margin: 100px auto;
+    /*margin-left: 30px;
+    margin-top: 50px;*/
     }
 
     #siguenos{
@@ -205,7 +209,7 @@ p{
         width: 95%;
         padding-top:9px;
     }
-    #menu ul a{
+    #menu a{
         color: #000;
         padding: 11px 24px 12px 24px;
         text-decoration: none;
@@ -221,7 +225,7 @@ p{
         margin-top: 70px;
         background-color: #09f;
     }
-    #ci{
+    .ci{
         width: 100%;
         height: 100%;    
     }
@@ -235,7 +239,7 @@ p{
     #qs{
         margin-top: 80px;
     }
-     #imgs{
+     .imgs{
         width:340px;
         height:340px;
         margin-top: 50px;
@@ -243,17 +247,15 @@ p{
     #amd{
         border-bottom: solid;
     }
-    #s1,#s2{
+    #s0,#s1,#s2,#s3,#s4,#s5{
         min-width: 50%;
         border-bottom: solid;
     }
-    #s1{
-       border-left: solid; 
-    }
-    #s2{
-        border-left: solid;
+
+    #s0,#s2,#s4{
         border-right: solid;
     }
+
     #sub{
         margin-top: 0px;
         background-size: cover;
@@ -265,12 +267,14 @@ p{
     #sub2{
       background-size: cover;
       background: rgba(102, 102, 255,.7);
-      width: 102.9%;
+      min-width: 100%;
+      /*width: 102.9%;*/
       height: 400px;
     }
     #texts{
-        background-size: cover;
-        margin: 50px 120px;
+        margin: 70px 100px;
+        /*background-size: cover;
+        margin: 50px 120px;*/
     }
     #siguenos{
         margin-top:-100px;
